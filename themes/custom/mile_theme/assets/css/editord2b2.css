@@ -1,0 +1,11 @@
+img[data-align="left"]{
+    float: left;
+}
+img[data-align="center"]{
+    display: block;
+    margin: 0 auto;
+}
+
+img[data-align="right"]{
+    float: right;
+}

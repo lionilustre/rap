@@ -1,0 +1,98 @@
+.mile-block-live{
+    margin: 2rem 0 5rem 0;
+    padding: 6px 12px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mile-block-live .title-video-live {     
+    color: var(--color-text);
+}
+
+.mile-block-live .title-video-live h4{     
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+.mile-block-live .video-live .container-video-live {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.mile-block-live .video-live .container-video-live img,
+.mile-block-live .video-live .container-video-live iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.mile-block-live .info-video-live{
+    margin-top: 2rem;
+    display: flex;/*default: flex*/
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mile-block-live .info-video-live .label {
+    width: 40%;
+}
+
+.mile-block-live .info-video-live .label .title-block-live{
+    color: var(--color-header);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.mile-block-live .info-video-live .date-video-live{
+    width: 30%;
+}
+
+.mile-block-live .info-video-live .date-video-live h5{
+    color: var(--color-text);
+    font-weight: bold;
+}
+
+.mile-block-live .info-video-live .date-video-live .date{
+    color: var(--color-header);
+    display: flex;
+    font-weight: bold;
+    line-height: 25px;
+
+}
+
+.mile-block-live .info-video-live .date-video-live .date p{ text-align: center;}
+.mile-block-live .info-video-live .date-video-live .date p.number{ font-size: 1.2rem; margin: 0; }
+.mile-block-live .info-video-live .date-video-live .date p.text{ font-size: 1.5rem; margin: 0;}
+.mile-block-live .info-video-live .date-video-live .date .line{ width: 3px; height: 48px; background-color: var(--color-text); margin: 0px 8px; }
+.mile-block-live .info-video-live .date-video-live .date .hour{ font-size: 1.8rem; line-height: 3rem; }
+
+
+.mile-block-live .info-video-live .description-video-live{
+    width: 50%;
+    color: var(--color-header);
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+
+.mile-block-live .info-video-live .description-video-live a{
+    color: var(--color-text);
+}
+
+
+@media (max-width: 576px) {
+    .mile-block-live { margin: 1rem 0; }
+    .mile-block-live .title-block-live{ font-size: 3rem; }
+    .mile-block-live .title-video-live { margin-left: 0%; }
+    .mile-block-live .info-video-live{ justify-content: flex-start; }
+    .mile-block-live .info-video-live .date-video-live{ width: 30%; }
+    .mile-block-live .info-video-live .description-video-live{ width: 100%; }
+    .mile-block-live .info-video-live .date-video-live .date .hour{ font-size: 1.4rem; }
+    .mile-block-live .info-video-live .label { width: 100%; text-align: center; }
+}
