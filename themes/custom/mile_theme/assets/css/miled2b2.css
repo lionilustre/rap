@@ -1980,13 +1980,14 @@ background-image:none!important;
 .box-art:hover .art-proc {
   color:var(--color2-2022)
 }
-.head-img3 {
-  background-image: url(../../../../../sites/default/files/2022-06/humo3.webp); 
-   width: 100%;
-   height: 100%;
-   background-position: center 1rem;
-   background-size: 100% 100%;
-   background-repeat: no-repeat;
+.but-home {
+    background-color:var(--color5-2022);
+    padding-bottom: 6rem !important;
+    padding-top: 3rem !important;
+      background-image: url(../../../../../sites/default/files/2022-06/), url(../../../../../sites/default/files/2022-06/), url(../../../../../sites/default/files/2022-06/),  url(../../../../../sites/default/files/2022-06/), url(../../../../../sites/default/files/2022-06/bg-dj2.png);
+  background-repeat:no-repeat;
+  background-size:20%, 20%, auto, auto, auto;
+  background-position: 10% 6rem, 90% 6rem, left bottom, right bottom, center bottom;
  }
  
 
