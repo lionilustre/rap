@@ -1880,7 +1880,6 @@ background-image:none!important;
     margin-right:auto;
     
   }
-  
   .bl01, .bl02, .bl05, .bl06 {
     background-color:var(--color5-2022);
     padding-bottom: 6rem !important;
@@ -2028,16 +2027,16 @@ overflow: hidden;
 margin-bottom:3rem
 }
 
-title-news {
+.title-news {
   font-family:var(--text1-2022);
   color:var(--color2-2022);
   font-size:3rem;
   padding-bottom:3rem;
   padding-top:3rem;
   margin-bottom:2rem;
-  
+  background-image:url(../../../../../sites/default/files/2022-06/);
   background-repeat:no-repeat;
-  background-size:auto 90%;
+  background-size:auto 0%;
   background-position:center
 }
 .more-news a {
