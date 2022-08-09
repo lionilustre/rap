@@ -2022,7 +2022,18 @@ overflow: hidden;
 margin-bottom:3rem
 }
 
-
+title-news {
+  font-family:var(--text1-2022);
+  color:var(--color2-2022);
+  font-size:3rem;
+  padding-bottom:3rem;
+  padding-top:3rem;
+  margin-bottom:2rem;
+  
+  background-repeat:no-repeat;
+  background-size:auto 90%;
+  background-position:center
+}
 .more-news a {
   color:var(--color2-2022);
   font-family:var(--text2-2022);
