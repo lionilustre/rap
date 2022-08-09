@@ -1892,7 +1892,14 @@ background-image:none!important;
 
   }
 
-  
+  .but-home {
+    background-color:var(--color5-2022);
+    padding-bottom: 6rem !important;
+    padding-top: 3rem !important;
+      background-image: url(../../../../../sites/default/files/2022-06/bg-dj2.png);
+  background-repeat:no-repeat;
+  background-size:20%, 20%, auto, auto, auto;
+  background-position: 10% 6rem, 90% 6rem, left bottom, right bottom, center bottom;
 
   }
 
