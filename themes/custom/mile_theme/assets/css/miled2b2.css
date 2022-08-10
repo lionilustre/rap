@@ -114,7 +114,8 @@ header .content-header #block-mile-theme-branding a{
   display: block;
 }
 
-
+header .content-header #block-mile-theme-branding a img{
+  height: 100%;
 }
 
 header .content-header .social-networks{
