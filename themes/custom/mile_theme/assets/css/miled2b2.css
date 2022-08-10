@@ -114,28 +114,7 @@ header .content-header #block-mile-theme-branding a{
   display: block;
 }
 
-header .content-header #block-mile-theme-branding a img{
-  height: 100%;
-} 
 
-header .content-header .logos-festivals{
-  margin: 0 1rem;
-  order: 2;
-  -webkit-order: 2;
-}
-
-header .content-header .logos-festivals > a > div.img-festival{
-  width: 78px;
-  height: 42px;
-  margin: 19px 0.5rem 0 0.5rem;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-header .content-header .logos-festivals > a > div.img-festival[title^="Rock"]{
-  height: 54px !important;
-  margin: 12px 0.5rem !important;
 }
 
 header .content-header .social-networks{
