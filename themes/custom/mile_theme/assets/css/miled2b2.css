@@ -227,6 +227,23 @@ footer .content-footer #block-newsletter .btn-newsletter{
   width: 280px;
 }
 
+
+.indiefy-banner[_ngcontent-c1] {
+    width: 200px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 8px 8px;
+    border-radius: 3px;
+    color: #444;
+    z-index: 1000;
+}
+
+
+
+
+
 /* 
 footer .content-footer #block-webform {
   margin: 0 2rem;
