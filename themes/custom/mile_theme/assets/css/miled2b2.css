@@ -243,6 +243,38 @@ footer .content-footer #block-newsletter .btn-newsletter{
 
 
 
+.navbar-nav .nav-link .nav-link-inner--text {
+    margin-left: .25rem;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.5);
+}
+.navbar-nav .nav-link {
+    font-size: 0.9rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-transform: normal;
+    letter-spacing: 0;
+    transition: all 0.15s linear;
+}
+.nav-link {
+    color: #525f7f;
+}
+a {
+    color: #5e72e4;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+
+
+
+
 
 .dropdown-menu .dropdown-item {
     padding: 1rem;
