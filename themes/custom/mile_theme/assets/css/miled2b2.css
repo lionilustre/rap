@@ -18,7 +18,6 @@
 */
 
 /**
-
 /********************************************
 **************  GENERAL   *****************
 ********************************************/
@@ -35,8 +34,9 @@
   --color7-2022: #FFFFFF;
   --color8-2022: #83a1aa;
   --color9-2022: #4A6D75;
-  --text1-2022: 'Alfa Slab One', cursive;
-  --text2-2022: 'Mulish', sans-serif;
+  --text1-2022: '#FFFFFF;
+  --text2-2022: '#FFFFFF;
+}
 
  
 
@@ -249,18 +249,13 @@ footer .content-footer #block-webform {
   order: 3;
   -webkit-order: 3;
 }
-
-
 footer .content-footer #block-webform h3{
   display: none !important;
   visibility: hidden;
 }
-
-
 footer .content-footer #block-webform form{
   display: flex;
 }
-
 footer .content-footer #block-webform form input[type="email"]{
   background: no-repeat;
   border: 2px solid var(--color-text);
@@ -270,25 +265,19 @@ footer .content-footer #block-webform form input[type="email"]{
   max-width: 220px;
   padding-left: 6px;
 }
-
 footer .content-footer #block-webform form input[type="email"]:focus{
   border: 2px solid var(--color-text);
 }
-
-
 footer .content-footer #block-webform form input[type="email"]::placeholder {
   color: var(--color-header);
   opacity: 1; 
 }
-
 footer .content-footer #block-webform form input[type="email"]:-ms-input-placeholder { 
  color: var(--color-header);
 }
-
 footer .content-footer #block-webform form input[type="email"]::-ms-input-placeholder { 
  color: var(--color-header);
 }
-
 footer .content-footer #block-webform form input[type="submit"]{
   border: none;
   background-color: var(--color-text);
@@ -296,7 +285,6 @@ footer .content-footer #block-webform form input[type="submit"]{
   height: 35px;
   font-weight: bold;
 } 
-
 */
 
 footer .content-footer  .social-networks{
