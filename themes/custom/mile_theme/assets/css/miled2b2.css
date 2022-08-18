@@ -243,32 +243,38 @@ footer .content-footer #block-newsletter .btn-newsletter{
 
 
 
-.navbar-nav .nav-link .nav-link-inner--text {
-    margin-left: .25rem;
+@media (min-width: 992px)
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
 }
 
+.collapse:not(.show) {
+    display: none;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
 *, *::before, *::after {
     box-sizing: border-box;
 }
-.navbar-light .navbar-nav .nav-link {
-    color: rgba(0, 0, 0, 0.5);
+hoja de estilo de user-agent
+div {
+    display: block;
 }
-.navbar-nav .nav-link {
-    font-size: 0.9rem;
+body {
+    margin: 0;
     font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
     font-weight: 400;
-    text-transform: normal;
-    letter-spacing: 0;
-    transition: all 0.15s linear;
-}
-.nav-link {
+    line-height: 1.5;
     color: #525f7f;
+    text-align: left;
+    background-color: #fff;
 }
-a {
-    color: #5e72e4;
-    text-decoration: none;
-    background-color: transparent;
-}
+
 
 
 
