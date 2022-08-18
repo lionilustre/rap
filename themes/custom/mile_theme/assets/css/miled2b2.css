@@ -220,7 +220,7 @@ footer .content-footer #block-newsletter {
 
 footer .content-footer #block-newsletter .btn-newsletter{
   background-color: var(--color-text);
-  color: var(--color-text);
+  color: var(--color-bg);
   font-weight: 700;
   font-size: 0.9rem;
   width: 280px;
