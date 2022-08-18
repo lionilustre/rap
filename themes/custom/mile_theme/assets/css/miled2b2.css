@@ -243,6 +243,41 @@ footer .content-footer #block-newsletter .btn-newsletter{
 
 
 
+
+.dropdown-menu .dropdown-item {
+    padding: 1rem;
+    font-size: 0.875rem;
+}
+
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+
+color: #5e72e4;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
 /* 
 footer .content-footer #block-webform {
   margin: 0 2rem;
